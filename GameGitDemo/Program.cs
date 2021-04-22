@@ -6,8 +6,8 @@ namespace GameGitDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello version control!");
-            Console.ReadKey(true);
+            Game game = new Game();
+            game.Run();
         }
     }
 }
